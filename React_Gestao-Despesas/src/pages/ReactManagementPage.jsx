@@ -21,7 +21,6 @@ import Paper from '@mui/material/Paper';
 import Error from '../components/Error';
 import Loading from '../components/Loading';
 import { calcularTotal, generateCalendar } from '../helpers/funcoesAuxiliares';
-//import { apiGetDespesas } from '../services/apiService';
 import { apiGetDespesas, apiGetDespesasMes } from '../services/apiService';
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
@@ -60,12 +59,7 @@ export default function ReactManagerPage() {
   const firstDate = weeks[0];
   //const lastDate = weeks.pop();
   const mesCorrente = firstDate.substring(0, 7);
-  // console.log('firstDate');
-  // console.log(firstDate);
-  //console.log(lastDate);
-  // console.log('mesCorrente'
-  // console.log(mesCorrente);
-
+ 
   useEffect(() => {
     async function getAllDespesasMes() {
       try {
