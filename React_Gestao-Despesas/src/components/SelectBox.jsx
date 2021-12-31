@@ -47,17 +47,3 @@ export default function SelectBox({
   );
 }
 
-// const optionsMes = [
-//   { id: serviceNewId(), value: '-01', label: 'Janeiro' },
-//   { id: serviceNewId(), value: '-02', label: 'Fevereiro' },
-//   { id: serviceNewId(), value: '-03', label: 'Março' },
-//   { id: serviceNewId(), value: '-04', label: 'Abril' },
-//   { id: serviceNewId(), value: '-05', label: 'Maio' },
-//   { id: serviceNewId(), value: '-06', label: 'Junho' },
-//   { id: serviceNewId(), value: '-07', label: 'Julho' },
-//   { id: serviceNewId(), value: '-08', label: 'Agosto' },
-//   { id: serviceNewId(), value: '-09', label: 'Setembro' },
-//   { id: serviceNewId(), value: '-10', label: 'Outubro' },
-//   { id: serviceNewId(), value: '-11', label: 'Novembro' },
-//   { id: serviceNewId(), value: '-12', label: 'Dezembro' },
-// ];
